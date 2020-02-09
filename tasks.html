@@ -5,7 +5,9 @@
       <center>
     <title>Daily Tasks</title>
     </center>
+    <!-- link css and script-->
     <link rel='stylesheet' href='tasks.css'/>
+    <script src="tasks.js" defer></script>
 
   </head>
   <body>
@@ -21,11 +23,12 @@
 
     <header>
         <h1 style="color:white;">Task Fulfillment</h1>
-        <center>
-        <div class="progress-bar"> </center>
+            <!-- bar-size sets default width size-->
+            <div class="progress-bar" style="--bar-size: 30"
+            data-label="Loading..."> </div>
+
             <span style="width: 50%"></span>
         </div>
-        </center>
         </header>
     <center>
     <div class='menu'>
@@ -76,6 +79,6 @@
 
 
     </center>
-    
+
   </body>
 </html>
