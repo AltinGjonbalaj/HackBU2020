@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <center>
+    <title>Daily Tasks</title>
+    </center>
+    <!-- link css and script-->
+    <link rel='stylesheet' href='tasks.css'/>
+    <script src="tasks.js" defer></script>
+    <script>
+        document.getElementsByTagName('button').onclick = function() {
+           alert("button was clicked");
+        };
+    </script>
+  </head>
+  <body>
+
+    <!-- sidebar-->
+    <div class="sidenav">
+        <a href="tasks.php">Home</a>
+        <a href="finance.php">Financial Wellbeing</a>
+        <a href="stopjuuling.php" >Nicotine Addiction</a>
+        <a href="helth.php">Environmental Footprint</a>
+        <a href="crack.php">Motivation</a>
+        <a href="kars.php">Weekly Car Help</a>
+    </div>
+
+    <header>
+        <h1 style="color:white;">Task Fulfillment</h1>
+            <!-- bar-size sets default width size-->
+            <div class="progress-bar" style="--bar-size: 30"
+            data-label="Loading..."> </div>
+
+            <span style="width: 50%"></span>
+        </div>
+        </header>
+    <center>
+    <div class='menu'>
+        <div class='task-box'>
+        <h2>Today's Tasks</h2>
+    <!--<h2>Today's Tasks</h2>-->
+    <ol>
+        <li>Make your bed!</li>
+        <button type="button">Complete!</button>
+
+        <li>Read an article!</li>
+        <button type="button">Complete!</button>
+
+        <li>Meditate for 10 minutes!</li>
+        <button type="button">Complete!</button>
+    </ol>
+</div>
+
+        <div class='task-box'>
+        <h2>This Week's Tasks</h2>
+
+        <ol>
+        <li>Clean your room!</li>
+        <button type="button">Complete!</button>
+
+        <li>Work out!</li>
+        <button type="button">Complete!</button>
+
+        <li>Start a new project!</li>
+        <button type="button">Complete!</button>
+    </ol>
+</div>
+
+        <div class='task-box'>
+        <h2>This Month's Tasks</h2>
+
+        <ol>
+        <li>Start a book!</li>
+        <button type="button">Complete!</button>
+
+        <li>Finish an old project!</li>
+        <button type="button">Complete!</button>
+
+        <li>Save 10% of your income!</li>
+        <button type="button">Complete!</button>
+    </ol>
+</div>
+
+
+    </center>
+
+  </body>
+</html>
