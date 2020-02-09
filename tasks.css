@@ -67,3 +67,42 @@ header {
     padding: 10px;
     background-color: #ffe8d7;
 }
+
+.sidenav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #181818; /* Light weird blue */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin: 0 auto;
+    float: left;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+ }
+
+ .sidenav a:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.progress-bar {
+    height: 15px;
+    background-color: #e5fffe;
+    width: 50%;
+    border-radius: 50px 50px;
+
+}
+
+.progress-bar < span{
+    
+}
