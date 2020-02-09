@@ -152,12 +152,12 @@ $show_form = !($input_valid);
         </main>
 
         <div class="sidenav">
-            <a href="tasks.php">Home</a>
-            <a href="finance.php">Financial Wellbeing</a>
+            <a href="home.php">Home</a>
+            <a href ="finance.php">Financial Wellbing</a>
+            <a href="finance2.php">Weekly Finance</a>
             <a href="stopjuuling.php" >Nicotine Addiction</a>
             <a href="helth.php">Environmental Footprint</a>
             <a href="crack.php">Motivation</a>
-            <a href="kars.php">Weekly Car Help</a>
         </div>
     </body>
 </html>

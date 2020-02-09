@@ -18,12 +18,12 @@
 
     <!-- sidebar-->
     <div class="sidenav">
-        <a href="tasks.php">Home</a>
-        <a href="#">Financial Wellbeing</a>
+    <a href="home.php">Home</a>
+        <a href ="finance.php">Financial Wellbing</a>
+        <a href="finance2.php">Weekly Finance</a>
         <a href="stopjuuling.php" >Nicotine Addiction</a>
         <a href="helth.php">Environmental Footprint</a>
         <a href="crack.php">Motivation</a>
-        <a href="kars.php">Weekly Car Help</a>
     </div>
 
     <header>
@@ -41,13 +41,13 @@
         <h2>Today's Tasks</h2>
     <!--<h2>Today's Tasks</h2>-->
     <ol>
-        <li></li>
+        <li>Quit one day of the week!</li>
         <button type="button">Complete!</button>
 
-        <li>Daily task 2</li>
+        <li>Make a list of reasons to quit!</li>
         <button type="button">Complete!</button>
 
-        <li>Daily task 3</li>
+        <li>Save all your used packs!</li>
         <button type="button">Complete!</button>
     </ol>
 </div>
@@ -56,13 +56,13 @@
         <h2>This Week's Tasks</h2>
 
         <ol>
-        <li>Weekly task 1</li>
+        <li>Read an article on health effects!</li>
         <button type="button">Complete!</button>
 
-        <li>Weekly task 2</li>
+        <li>Talk to a friend or family member about quiting!</li>
         <button type="button">Complete!</button>
 
-        <li>Weekly task 3</li>
+        <li>Start a new hobby!</li>
         <button type="button">Complete!</button>
     </ol>
 </div>
@@ -71,13 +71,13 @@
         <h2>This Month's Tasks</h2>
 
         <ol>
-        <li>Monthly task 1</li>
+        <li>Pick a day to quit for good!</li>
         <button type="button">Complete!</button>
 
-        <li>Monthly task 2</li>
+        <li>Replace smoking with the new hobby!</li>
         <button type="button">Complete!</button>
 
-        <li>Monthly task 3</li>
+        <li>Keep track of the days you have gone without smoking!</li>
         <button type="button">Complete!</button>
     </ol>
 </div>

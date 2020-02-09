@@ -18,7 +18,7 @@
         <button type="button" onclick="buttonfunc()" class="btn btn-light">Go</button>
         <script>
             function buttonfunc() {
-              location.replace("file:///home/rebu/Desktop/HackBU2020/tasks.php")
+              location.replace("http://localhost:3000/tasks.php")
             }
             </script>
         </div>
